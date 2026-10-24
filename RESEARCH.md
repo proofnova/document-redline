@@ -16,7 +16,7 @@ Problem: 문서의 추가·삭제·이동·수정을 안정된 절 ID와 단어 
 
 1. Same functionality already exists? Yes, underlying domain operations are established. An existing tool configured for this exact task may remove the need for a separate project.
 2. Existing configuration enough? Plausibly; no exhaustive plugin/configuration execution was completed. Check the nearest tool before expanding this prototype.
-3. Another name? Search terms include Anchored document redline; document redline; 문서의 추가·삭제·이동·수정을 안정된 절 ID와 단어 차이로 분리한다.; git-apply; pandoc. Existing algorithm names appear in the method above.
+3. Another name? Search terms include document section move edit redline stable IDs 문서 비교. Existing algorithm names appear in the method above.
 4. Important user difference? Fewer runtime dependencies and a validated tool boundary are concrete; actual adoption and time savings remain unmeasured.
 5. Added complexity? Structured JSON is a real setup cost. A browser example and exact field errors reduce it, but do not erase it.
 6. Retraction evidence? An existing setup with the same access/contract or a failed invariant/performance comparison removes the claimed practical advantage.

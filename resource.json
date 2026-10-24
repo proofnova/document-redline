@@ -66,18 +66,22 @@
       "Korean"
     ],
     "queries": [
-      "Anchored document redline",
-      "document redline",
-      "문서의 추가·삭제·이동·수정을 안정된 절 ID와 단어 차이로 분리한다.",
-      "git-apply",
-      "pandoc"
+      "document section move edit redline stable IDs 문서 비교"
     ],
     "scope": "Primary documentation and repository descriptions were read on the public web. Competitor code, plugins and packaged execution were not exhaustively tested. This is a bounded prior-art review, not a worldwide novelty search.",
     "limitations": [
       "Search results and documentation do not establish universal absence.",
       "Competitor configuration/plugin parity is not exhausted.",
       "No independent end-user interview or deployment evidence."
-    ]
+    ],
+    "proposed_queries": [
+      "Anchored document redline",
+      "document redline",
+      "문서의 추가·삭제·이동·수정을 안정된 절 ID와 단어 차이로 분리한다.",
+      "git-apply",
+      "pandoc"
+    ],
+    "query_scope": "One actual bilingual search per resource, grouped in shared cached batches; additional suggested terms are explicitly proposed, not executed."
   },
   "checked_at": "2026-10-24",
   "distinctive_capability": "LCS order anchors distinguish true moves from index shifts caused by insertion. An offline executable can be called by a small model and checked against an explicit task contract.",
@@ -103,7 +107,8 @@
   "validation_results": {
     "worked_cases": 1,
     "evaluation_cases": 1,
-    "root_required_field_rejection": true
+    "root_required_field_rejection": true,
+    "fixture_role": "Development regression fixtures; not an untouched final model evaluation set."
   },
   "external_impact_evidence": [],
   "decision": {
